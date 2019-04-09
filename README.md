@@ -23,3 +23,9 @@ In theory, adding `console.log(p.mCanvas.toDataURL());`at the end of each draw()
 ```
 docker run dockerized-p5js | cut -d, -f 2 | base64 -D | ffmpeg -an -i pipe:0 -y -c:v libx264 -vf fps=25 -pix_fmt yuv420p out.mp4
 ```
+
+
+## Credits: 
+
+I'd like to thank #duthienkt for sharing the code for the "p5adapter".  
+https://github.com/duthienkt?fbclid=IwAR3wwIYVdOVLUEnrcFd9xTgxgZ5t1BrZ6nRvS56bwu-DaAmPkeyA8aMRnSA
