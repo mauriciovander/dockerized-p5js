@@ -1,6 +1,8 @@
 # dockerized-p5js
 generates images using p5js on the server-side. 
 
+![generated n2048 logo](https://github.com/mauriciovander/dockerized-p5js/blob/master/out.png)
+
 
 # Generate Docker image
 ```
