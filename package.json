@@ -1,0 +1,19 @@
+{
+  "name": "dockerized-p5js",
+  "version": "1.0.0",
+  "description": "generates images using p5js on the server-side.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/sketch.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mauriciovander/dockerized-p5js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.4.1",
+    "p5": "^0.8.0"
+  }
+}
